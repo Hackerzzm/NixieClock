@@ -11,7 +11,7 @@ public class MyTextViewClockWidgetProvider extends AppWidgetProvider {
     @Override
     public void onReceive(Context context, Intent intent) {
         super.onReceive(context, intent);
-        Logger.d("MyTextViewClockWidgetProvider onReceive ");
+//        Logger.d("MyTextViewClockWidgetProvider onReceive ");
     }
 
     @Override

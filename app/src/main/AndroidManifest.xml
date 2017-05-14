@@ -16,28 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--<activity android:name=".GizmosActivity">
-            <intent-filter android:label="@string/filter_title_viewgizmos">
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-                &lt;!&ndash; Accepts URIs that begin with "http://www.example.com/gizmos” &ndash;&gt;
-                <data
-                    android:host="www.example.com"
-                    android:pathPrefix="/gizmos"
-                    android:scheme="http" />
-                &lt;!&ndash; note that the leading "/" is required for pathPrefix &ndash;&gt;
-                &lt;!&ndash;
-                Accepts URIs that begin with "example://gizmos”
-                <data android:scheme="example"
-                      android:host="gizmos" />
-                &ndash;&gt;
-            </intent-filter>
-        </activity>-->
-
         <service android:name=".TimerService" />
-
         <receiver android:name=".MyTextViewClockWidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
