@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Nixie Clock</string>
+    <string name="time_show">时间显示</string>
 </resources>
