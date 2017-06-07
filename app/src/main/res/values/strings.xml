@@ -2,4 +2,6 @@
     <string name="app_name">Nixie Clock</string>
     <string name="time_show">时间显示</string>
   <string name="contentdescription">no contentDescription</string>
+    <string name="imfeelinglucky">试试运气</string>
+    <string name="success_total">成功次数/总次数：</string>
 </resources>
